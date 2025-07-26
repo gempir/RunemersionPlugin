@@ -3,9 +3,7 @@ package com.gempir;
 import com.google.inject.Provides;
 import javax.inject.Inject;
 import lombok.extern.slf4j.Slf4j;
-import net.runelite.api.Client;
 import net.runelite.client.config.ConfigManager;
-import net.runelite.client.eventbus.Subscribe;
 import net.runelite.client.plugins.Plugin;
 import net.runelite.client.plugins.PluginDescriptor;
 import net.runelite.client.ui.overlay.OverlayManager;
@@ -16,9 +14,6 @@ import net.runelite.client.ui.overlay.OverlayManager;
 )
 public class RunemersionPlugin extends Plugin
 {
-	@Inject
-	private Client client;
-
 	@Inject
 	private OverlayManager overlayManager;
 

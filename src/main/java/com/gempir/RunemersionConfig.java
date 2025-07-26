@@ -16,4 +16,14 @@ public interface RunemersionConfig extends Config
 	{
 		return "Hello";
 	}
+
+	@ConfigItem(
+		keyName = "showDialogueNumbers",
+		name = "Show Dialogue Numbers",
+		description = "Show numbers next to dialogue options"
+	)
+	default boolean showDialogueNumbers()
+	{
+		return true;
+	}
 }
