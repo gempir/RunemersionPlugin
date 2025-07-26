@@ -7,7 +7,7 @@ public class RunemersionPluginTest
 {
 	public static void main(String[] args) throws Exception
 	{
-		ExternalPluginManager.loadBuiltin(ExamplePlugin.class);
+		ExternalPluginManager.loadBuiltin(RunemersionPlugin.class);
 		RuneLite.main(args);
 	}
 }

@@ -1,2 +1,2 @@
-# Example
-An example greeter plugin
+# Runemersion
+An example greeter plugin for RuneLite.
